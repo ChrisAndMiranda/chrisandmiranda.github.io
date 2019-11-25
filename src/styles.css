@@ -44,6 +44,7 @@ nav {
     justify-content: space-between;
     background-color: #93eac0;
     z-index: 1;
+    padding: 2%;
 }
 
 .nav-container {
@@ -136,6 +137,10 @@ footer {
 
 
 @media only screen and (min-width: 996px) {
+
+    nav {
+        padding: 0;
+    }
 
     .hamburger {
         display: none;
