@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"about-events-gifts-container\" id=\"info\" [@scrollAnimation]=\"getToggle()\">\n    <div class=\"about-container\">\n        <h2>About the Bride and Groom</h2>\n        <p>Their love story begins when they met for the first time in the galley at 9 West Doen while both working as nurse aids on the burn unit for The Ohio State University Wexner Medical Center. Chris later sent Miranda a message on facebook to meet up. They hung out for the first time at Ugly Tuna on Halloween where they danced to the wobble all night. A couple years later, after college, they began dating after Chris brought Miranda Taco Bell and came to meet and be approved by Bojangles. </p>\n    </div>\n    <div class=\"about-img-container\"><img src=\"../../assets/img/mirantopher.jpg\"/></div>\n    <div class=\"event-container\" [ngClass]=\"{'center': isIEOrEdge}\">\n        <h2>Events</h2>\n        <h4>June 20, 2020</h4>\n        <p>Ceremony - 3:30PM @ Bryn Du Mansion<br>\n            537 Jones Rd NE, Granville, OH 43023</p>\n        <p>Reception to Follow</p>\n    </div>\n</div>\n<h3>Please use <b>#DreamComeTornero</b> for any social media posts</h3>\n<div class=\"wedding-icons\">\n    <div class=\"rsvp-icon icon\" (click)=\"goToUrl('https://forms.gle/6FRdN2QAYK4BTdex8')\"><fa-icon class=\"icon\" [icon]=\"faReply\"></fa-icon><p class=\"icon\">RSVP</p></div>\n    <div class=\"gift-icon icon\" (click)=\"showLinks('gifts')\" [ngClass]=\"{'selected': isGiftsSelected == true}\"><fa-icon class=\"icon\" [icon]=\"faGift\"></fa-icon><p class=\"icon\">Gifts</p></div>\n    <div class=\"hotel-icon icon\" (click)=\"showLinks('hotels')\" [ngClass]=\"{'selected': isHotelsSelected == true}\"><fa-icon class=\"icon\" [icon]=\"faHotel\"></fa-icon><p class=\"icon\">Hotel</p></div>\n</div>\n<div class=\"gift-links\" *ngIf=\"isGiftsSelected\">\n    <a href=\"https://www.amazon.com/wedding/share/dreamcometornero\" target=\"_blank\">Amazon</a>\n    <a href=\"https://www.honeyfund.com/wedding/dreamcometornero\" target=\"_blank\">Honeyfund</a>\n    <a href=\"https://www.target.com/gift-registry/giftgiver?registryId=4f2ca4c3f1714b95b43ef24dabb5730e&type=WEDDING\" target=\"_blank\">Target</a>\n</div>\n<div class=\"hotel-links\" *ngIf=\"isHotelsSelected\">\n    <div><a href=\"https://www.cherryvalleyhotel.com/\" target=\"_blank\">Cherry Valley Hotel</a><p>(call to book under Tornero/Gloyd)</p><span>(740) 788-1200</span></div>\n    <div><a href=\"https://www.marriott.com/event-reservations/reservation-link.mi?id=1579531594383&key=GRP&app=resvlink\" target=\"_blank\">Marriot</a><p>(Book online or call under Tornero/Gloyd)</p><span>(740) 344-1800</span></div>\n</div>\n<div id=\"hotel-notice\" *ngIf=\"isHotelsSelected\">*Tornero/Gloyd block held until May 20th for both hotels</div>"
+module.exports = "<div class=\"about-events-gifts-container\" id=\"info\" [@scrollAnimation]=\"getToggle()\">\r\n    <div class=\"about-container\">\r\n        <h2>About the Bride and Groom</h2>\r\n        <p>Their love story begins when they met for the first time in the galley at 9 West Doan while both working as nurse aids on the burn unit for The Ohio State University Wexner Medical Center. Chris later sent Miranda a message on facebook to meet up. They hung out for the first time at Ugly Tuna on Halloween where they danced to the wobble all night. A couple years later, after college, they began dating after Chris brought Miranda Taco Bell and came to meet and be approved by Bojangles. </p>\r\n    </div>\r\n    <div class=\"about-img-container\"><img src=\"../../assets/img/mirantopher.jpg\"/></div>\r\n    <div class=\"event-container\" [ngClass]=\"{'center': isIEOrEdge}\">\r\n        <h2>Events</h2>\r\n        <h4>June 12, 2021</h4>\r\n        <p>Ceremony - 3:30PM @ Bryn Du Mansion<br>\r\n            537 Jones Rd NE, Granville, OH 43023</p>\r\n        <p>Reception to Follow</p>\r\n    </div>\r\n</div>\r\n<h3>Please use <b>#DreamComeTornero</b> for any social media posts</h3>\r\n<div class=\"wedding-icons\">\r\n    <div class=\"rsvp-icon icon\" (click)=\"goToUrl('https://forms.gle/6FRdN2QAYK4BTdex8')\"><fa-icon class=\"icon\" [icon]=\"faReply\"></fa-icon><p class=\"icon\">RSVP</p></div>\r\n    <div class=\"gift-icon icon\" (click)=\"showLinks('gifts')\" [ngClass]=\"{'selected': isGiftsSelected == true}\"><fa-icon class=\"icon\" [icon]=\"faGift\"></fa-icon><p class=\"icon\">Gifts</p></div>\r\n    <div class=\"hotel-icon icon\" (click)=\"showLinks('hotels')\" [ngClass]=\"{'selected': isHotelsSelected == true}\"><fa-icon class=\"icon\" [icon]=\"faHotel\"></fa-icon><p class=\"icon\">Hotel</p></div>\r\n</div>\r\n<div class=\"gift-links\" *ngIf=\"isGiftsSelected\">\r\n    <a href=\"https://www.amazon.com/wedding/share/dreamcometornero\" target=\"_blank\">Amazon</a>\r\n    <a href=\"https://www.honeyfund.com/wedding/dreamcometornero\" target=\"_blank\">Honeyfund</a>\r\n    <a href=\"https://www.target.com/gift-registry/giftgiver?registryId=4f2ca4c3f1714b95b43ef24dabb5730e&type=WEDDING\" target=\"_blank\">Target</a>\r\n</div>\r\n<div class=\"hotel-links\" *ngIf=\"isHotelsSelected\">\r\n    <div><a href=\"https://www.cherryvalleyhotel.com/\" target=\"_blank\">Cherry Valley Hotel</a><p>(call to book under Tornero/Gloyd)</p><span>(740) 788-1200</span></div>\r\n    <div><a href=\"https://www.marriott.com/event-reservations/reservation-link.mi?id=1579531594383&key=GRP&app=resvlink\" target=\"_blank\">Marriot</a><p>(Book online or call under Tornero/Gloyd)</p><span>(740) 344-1800</span></div>\r\n</div>\r\n<div id=\"hotel-notice\" *ngIf=\"isHotelsSelected\">*Tornero/Gloyd block held until May 20th for both hotels</div>"
 
 /***/ }),
 
@@ -41,7 +41,7 @@ module.exports = "<div class=\"about-events-gifts-container\" id=\"info\" [@scro
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<router-outlet></router-outlet>\n\n   \n"
+module.exports = "<router-outlet></router-outlet>\r\n\r\n   \r\n"
 
 /***/ }),
 
@@ -52,7 +52,7 @@ module.exports = "<router-outlet></router-outlet>\n\n   \n"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"bridesmaids\" id=\"bridesmaids\" *ngIf=\"isBridesmaids == true\" [@slideLeft]=\"getBridesmaidsState()\" [ngClass]=\"{'bridesmaids-initial': isBridesmaids == true}\">\n    <img *ngFor=\"let person of people\" src=\"{{person.imgSrc}}\" [ngStyle]=\"{'width': getSize(person)}\" (click)=\"select(person)\"/>\n</div>\n<div class=\"bridesmaids\" id=\"bridesmaids\" *ngIf=\"isBridesmaids == false\" [@slideRight]=\"getGroomsmenState()\" [ngClass]=\"{'groomsmen-initial': isBridesmaids == false}\">\n    <img *ngFor=\"let person of people\" src=\"{{person.imgSrc}}\" [ngStyle]=\"{'width': getSize(person)}\" (click)=\"select(person)\"/>\n</div>\n"
+module.exports = "<div class=\"bridesmaids\" id=\"bridesmaids\" *ngIf=\"isBridesmaids == true\" [@slideLeft]=\"getBridesmaidsState()\" [ngClass]=\"{'bridesmaids-initial': isBridesmaids == true}\">\r\n    <img *ngFor=\"let person of people\" src=\"{{person.imgSrc}}\" [ngStyle]=\"{'width': getSize(person)}\" (click)=\"select(person)\"/>\r\n</div>\r\n<div class=\"bridesmaids\" id=\"bridesmaids\" *ngIf=\"isBridesmaids == false\" [@slideRight]=\"getGroomsmenState()\" [ngClass]=\"{'groomsmen-initial': isBridesmaids == false}\">\r\n    <img *ngFor=\"let person of people\" src=\"{{person.imgSrc}}\" [ngStyle]=\"{'width': getSize(person)}\" (click)=\"select(person)\"/>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -63,7 +63,7 @@ module.exports = "<div class=\"bridesmaids\" id=\"bridesmaids\" *ngIf=\"isBrides
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h1>Best Dogs of Honor</h1>\n<div class=\"border-container\">\n    <div class=\"dog-container bo-container\" id=\"dogs\">\n        <img src=\"../../assets/img/bobo.png\"/> \n        <div class=\"dog-info-container\">\n            <h3>Bojangles (Bo)</h3>\n            <p class=\"nicknames\"><i>Bo-Bee-Bop, Bo-bean, Bean-boy, Black bean</i></p>\n            <p>Miranda found Bo on facebook when he was 4 years old and instantly fell in love with him. The first time he met Chris, he ripped up a newspaper in front of him. He had never done this before. It was as if he was trying to show him who's boss! Bo is an American Black Lab, who is now 8, loves walks, cheese, and pillows (and howling with their roommate, Zach).</p>\n        </div>\n    </div>\n</div>\n<div class=\"border-container\">\n    <div class=\"dog-container\">\n        <div class=\"dog-info-container\">\n            <h3>Nashville (Nash)</h3>\n            <p class=\"nicknames\"><i>Nash-Nash, Nash-bean, Jumpin'-bean, Nash-com-poop, Nashy</i></p>\n            <p>Nash found Chris while he was walking Bo around Nashville, TN and <i>had</i> to follow them home. Miranda received a text telling her about the little guy while she was at work. She immediately told all of her co-workers that she would convince Chris to keep him. They looked for Nash's original home for a month, but finally Chris caved. Nash is a 3 year old Boston mix who has a wiggly butt and loves licking nose holes.</p>\n        </div>\n        <img src=\"../../assets/img/nashynash.png\"/>\n    </div>\n</div>\n<h2>#DreamComeTornero</h2>"
+module.exports = "<h1>Best Dogs of Honor</h1>\r\n<div class=\"border-container\">\r\n    <div class=\"dog-container bo-container\" id=\"dogs\">\r\n        <img src=\"../../assets/img/bobo.png\"/> \r\n        <div class=\"dog-info-container\">\r\n            <h3>Bojangles (Bo)</h3>\r\n            <p class=\"nicknames\"><i>Bo-Bee-Bop, Bo-bean, Bean-boy, Black bean</i></p>\r\n            <p>Miranda found Bo on facebook when he was 4 years old and instantly fell in love with him. The first time he met Chris, he ripped up a newspaper in front of him. He had never done this before. It was as if he was trying to show him who's boss! Bo is an American Black Lab, who is now 9, loves walks, cheese, and pillows (and howling with their roommate, Zach).</p>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"border-container\">\r\n    <div class=\"dog-container\">\r\n        <div class=\"dog-info-container\">\r\n            <h3>Nashville (Nash)</h3>\r\n            <p class=\"nicknames\"><i>Nash-Nash, Nash-bean, Jumpin'-bean, Nash-com-poop, Nashy</i></p>\r\n            <p>Nash found Chris while he was walking Bo around Nashville, TN and <i>had</i> to follow them home. Miranda received a text telling her about the little guy while she was at work. She immediately told all of her co-workers that she would convince Chris to keep him. They looked for Nash's original home for a month, but finally Chris caved. Nash is a 4 year old Boston mix who has a wiggly butt and loves licking nose holes.</p>\r\n        </div>\r\n        <img src=\"../../assets/img/nashynash.png\"/>\r\n    </div>\r\n</div>\r\n<h2>#DreamComeTornero</h2>"
 
 /***/ }),
 
@@ -74,7 +74,7 @@ module.exports = "<h1>Best Dogs of Honor</h1>\n<div class=\"border-container\">\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"nav-container\">\n    <nav>\n        <p>Chris & Miranda</p>\n        <ul>\n                <li [ngClass]=\"{'active': currentActive === 1}\">\n                  <a appNavScroll>Home</a>  \n                </li>\n                <li [ngClass]=\"{'active': currentActive === 2}\">\n                  <a appNavScroll>Info</a>  \n                </li>\n                <li [ngClass]=\"{'active': currentActive === 3}\">\n                  <a appNavScroll>Bridesmaids</a>  \n                </li>\n                <li [ngClass]=\"{'active': currentActive === 4}\">\n                  <a appNavScroll>Groomsmen</a>  \n                </li>\n                <li [ngClass]=\"{'active': currentActive === 5}\">\n                  <a appNavScroll>Ring Bearers</a>  \n                </li>\n                <li [ngClass]=\"{'active': currentActive === 6}\">\n                  <a appNavScroll>Dogs</a>  \n                </li>\n                <li>\n                  <a href=\"https://forms.gle/6FRdN2QAYK4BTdex8\" target=\"_blank\">RSVP</a>  \n                </li>\n            </ul>\n        <div class=\"hamburger\" *ngIf=\"isOpen === false\" (click)=\"changeOpen()\">\n            <div class=\"bar-one\"></div>\n            <div class=\"bar-two\"></div>\n            <div class=\"bar-three\"></div>\n        </div>\n        <div class=\"hamburger close\" *ngIf=\"isOpen === true\" (click)=\"changeOpen()\">\n            &times;\n        </div>\n    </nav>\n    <div *ngIf=\"isIEOrEdge\" class=\"browser-warning\"><span>Please use <a href=\"https://www.google.com/chrome/\" target=\"_blank\">Chrome</a> or <a href=\"https://www.mozilla.org/en-US/firefox/new/\" target=\"_blank\">Firefox</a> for the best experience.</span><p (click)=\"closeWarning()\">&times;</p></div>\n    <div class=\"hamburger-menu\" *ngIf=\"isOpen === true\" (click)=\"changeOpen()\">\n            <a appNavScroll>Home</a>\n            <a appNavScroll>Info</a>\n            <a appNavScroll>Bridesmaids</a>\n            <a appNavScroll>Groomsmen</a>\n            <a appNavScroll>Dogs</a>\n            <a href=\"https://forms.gle/6FRdN2QAYK4BTdex8\" target=\"_blank\">RSVP</a>\n    </div>\n</div>"
+module.exports = "<div class=\"nav-container\">\r\n    <nav>\r\n        <p>Chris & Miranda</p>\r\n        <ul>\r\n                <li [ngClass]=\"{'active': currentActive === 1}\">\r\n                  <a appNavScroll>Home</a>  \r\n                </li>\r\n                <li [ngClass]=\"{'active': currentActive === 2}\">\r\n                  <a appNavScroll>Info</a>  \r\n                </li>\r\n                <li [ngClass]=\"{'active': currentActive === 3}\">\r\n                  <a appNavScroll>Bridesmaids</a>  \r\n                </li>\r\n                <li [ngClass]=\"{'active': currentActive === 4}\">\r\n                  <a appNavScroll>Groomsmen</a>  \r\n                </li>\r\n                <li [ngClass]=\"{'active': currentActive === 5}\">\r\n                  <a appNavScroll>Ring Bearers</a>  \r\n                </li>\r\n                <li [ngClass]=\"{'active': currentActive === 6}\">\r\n                  <a appNavScroll>Dogs</a>  \r\n                </li>\r\n                <li>\r\n                  <a href=\"https://forms.gle/6FRdN2QAYK4BTdex8\" target=\"_blank\">RSVP</a>  \r\n                </li>\r\n            </ul>\r\n        <div class=\"hamburger\" *ngIf=\"isOpen === false\" (click)=\"changeOpen()\">\r\n            <div class=\"bar-one\"></div>\r\n            <div class=\"bar-two\"></div>\r\n            <div class=\"bar-three\"></div>\r\n        </div>\r\n        <div class=\"hamburger close\" *ngIf=\"isOpen === true\" (click)=\"changeOpen()\">\r\n            &times;\r\n        </div>\r\n    </nav>\r\n    <div *ngIf=\"isIEOrEdge\" class=\"browser-warning\"><span>Please use <a href=\"https://www.google.com/chrome/\" target=\"_blank\">Chrome</a> or <a href=\"https://www.mozilla.org/en-US/firefox/new/\" target=\"_blank\">Firefox</a> for the best experience.</span><p (click)=\"closeWarning()\">&times;</p></div>\r\n    <div class=\"hamburger-menu\" *ngIf=\"isOpen === true\" (click)=\"changeOpen()\">\r\n            <a appNavScroll>Home</a>\r\n            <a appNavScroll>Info</a>\r\n            <a appNavScroll>Bridesmaids</a>\r\n            <a appNavScroll>Groomsmen</a>\r\n            <a appNavScroll>Dogs</a>\r\n            <a href=\"https://forms.gle/6FRdN2QAYK4BTdex8\" target=\"_blank\">RSVP</a>\r\n    </div>\r\n</div>"
 
 /***/ }),
 
@@ -85,7 +85,7 @@ module.exports = "<div class=\"nav-container\">\n    <nav>\n        <p>Chris & M
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<app-fadingheader></app-fadingheader>\n<div class=\"banner\" id=\"home\">\n    <img src=\"../../assets/img/chrisandmiranda.jpg\"/>\n    <div class=\"info-container\">\n        <h1 class=\"banner-headline\">Chris & Miranda</h1>\n        <h3>are getting married!</h3>\n        <h3>June 20, 2020</h3>\n        <h4>#DreamComeTornero</h4>\n    </div>\n</div>\n<app-about id=\"info\"></app-about>\n<app-party-viewer></app-party-viewer>\n<app-ringbearer id=\"ring bearers\"></app-ringbearer>\n<app-dogs id=\"dogs\"></app-dogs>\n"
+module.exports = "<app-fadingheader></app-fadingheader>\r\n<div class=\"banner\" id=\"home\">\r\n    <img src=\"../../assets/img/chrisandmiranda.jpg\"/>\r\n    <div class=\"info-container\">\r\n        <h1 class=\"banner-headline\">Chris & Miranda</h1>\r\n        <h3>are getting married!</h3>\r\n        <h3>June 20, 2020</h3>\r\n        <h4>#DreamComeTornero</h4>\r\n    </div>\r\n</div>\r\n<app-about id=\"info\"></app-about>\r\n<app-party-viewer></app-party-viewer>\r\n<app-ringbearer id=\"ring bearers\"></app-ringbearer>\r\n<app-dogs id=\"dogs\"></app-dogs>\r\n"
 
 /***/ }),
 
@@ -96,7 +96,7 @@ module.exports = "<app-fadingheader></app-fadingheader>\n<div class=\"banner\" i
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<app-bridesmaids id=\"bridesmaids\" [people]=\"bridesmaids\" [isBridesmaids]=\"true\" (selectHero)=\"select($event)\"></app-bridesmaids>\n<div class=\"tile\" *ngIf=\"selectedPerson == null\"><p>Select a hero for more info...</p></div>\n<div class=\"tile\" *ngIf=\"selectedPerson != null\">\n    <img src=\"{{selectedPerson.imgSrc}}\" [ngStyle]=\"{'width': getDetailSize(selectedPerson)}\"/>\n    <p id=\"detail\"><b>{{selectedPerson.name}}</b><br>\n        <i class=\"person-nicknames\" *ngIf=\"selectedPerson.nicknames != null\">{{selectedPerson.nicknames}}</i><br *ngIf=\"selectedPerson.nicknames != null\">\n        <i>{{selectedPerson.relation}}</i><br>\n        {{selectedPerson.description}}</p>\n    </div>\n<app-bridesmaids id=\"groomsmen\" [people]=\"groomsmen\" [isBridesmaids]=\"false\" (selectHero)=\"select($event)\"></app-bridesmaids>\n"
+module.exports = "<app-bridesmaids id=\"bridesmaids\" [people]=\"bridesmaids\" [isBridesmaids]=\"true\" (selectHero)=\"select($event)\"></app-bridesmaids>\r\n<div class=\"tile\" *ngIf=\"selectedPerson == null\"><p>Select a hero for more info...</p></div>\r\n<div class=\"tile\" *ngIf=\"selectedPerson != null\">\r\n    <img src=\"{{selectedPerson.imgSrc}}\" [ngStyle]=\"{'width': getDetailSize(selectedPerson)}\"/>\r\n    <p id=\"detail\"><b>{{selectedPerson.name}}</b><br>\r\n        <i class=\"person-nicknames\" *ngIf=\"selectedPerson.nicknames != null\">{{selectedPerson.nicknames}}</i><br *ngIf=\"selectedPerson.nicknames != null\">\r\n        <i>{{selectedPerson.relation}}</i><br>\r\n        {{selectedPerson.description}}</p>\r\n    </div>\r\n<app-bridesmaids id=\"groomsmen\" [people]=\"groomsmen\" [isBridesmaids]=\"false\" (selectHero)=\"select($event)\"></app-bridesmaids>\r\n"
 
 /***/ }),
 
@@ -107,7 +107,7 @@ module.exports = "<app-bridesmaids id=\"bridesmaids\" [people]=\"bridesmaids\" [
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h2 id=\"bearers\">Bearers of the Rings</h2>\n<p>Wyatt (pictured left) and Ridge (pictured right) are the Ring Bearers. They are KiKi's kids and a big part of Chris and Miranda's lives.</p>\n<div class=\"ringbearer-img-container\">\n    <img src='../../assets/img/wyatt.jpg'/>\n    <img src=\"../../assets/img/ridge.jpg\"/>\n</div>\n\n"
+module.exports = "<h2 id=\"bearers\">Bearers of the Rings</h2>\r\n<p>Wyatt (pictured left) and Ridge (pictured right) are the Ring Bearers. They are KiKi's kids and a big part of Chris and Miranda's lives.</p>\r\n<div class=\"ringbearer-img-container\">\r\n    <img src='../../assets/img/wyatt.jpg'/>\r\n    <img src=\"../../assets/img/ridge.jpg\"/>\r\n</div>\r\n\r\n"
 
 /***/ }),
 
@@ -891,8 +891,8 @@ var PartyViewerComponent = /** @class */ (function () {
                     + 'They cheered, played softball together and walked around the Lake. They spent every weekend at each other\'s houses. People'
                     + ' used to ask them if they were twins which they always replied, yes!  Miranda was Courtney and her husband, Brandon\'s third'
                     + ' wheel for a few summers. Courtney and Brandon have 2 amazing boys, Logan and Eli. Miranda and Courtney now enjoy dancing and'
-                    + ' playing games when together. Miranda and Courtney both also have passions in the health care field. Courtney is going to school '
-                    + 'to be a Surgical Technician. Miranda has always admired Courtney\'s boldness/ability to talk to anyone and credits some of her '
+                    + ' playing games when together. Miranda and Courtney both also have passions in the health care field. Courtney is'
+                    + ' a Surgical Technician. Miranda has always admired Courtney\'s boldness/ability to talk to anyone and credits some of her '
                     + 'own confidence to Courtney.',
                 detailSize: '37%',
                 relation: '(Matron of Honor - Friend of Bride since Grade School)'
@@ -906,8 +906,8 @@ var PartyViewerComponent = /** @class */ (function () {
                     + 'driveways and ask "if that girl was home." From there they would run the streets of Hebron playing flash '
                     + 'light tag, flag football and jump on the trampoline. They would spend their weekends at softball tournaments '
                     + 'then each others houses where Miranda\'s dad always joked that Chelsea was their "red-headed step child." '
-                    + 'Chelsea and Miranda now enjoy hanging out with family together and eating Chinese food. Chelsea and her long '
-                    + 'time boyfriend Wes have a little boy, Colt. Chelsea is a cancer survivor and is one of the strongest people '
+                    + 'Chelsea and Miranda now enjoy hanging out with family together and eating Chinese food. Chelsea and her fiancé '
+                    + 'Wes have a little boy, Colt. Chelsea is a cancer survivor and is one of the strongest people '
                     + 'Miranda has ever met. ',
                 detailSize: '25%',
                 relation: '(Bridesmaid - Friend of Bride since Grade School)'
@@ -975,7 +975,7 @@ var PartyViewerComponent = /** @class */ (function () {
                     + 'good mutual friend Ryan Aguire talked them both into running cross-country. Saki and Chris then both attended The Ohio State '
                     + 'University together became even closer and bonded over a love for blues music and vinyl records. After undergrad the two were '
                     + 'roommates while Saki was in law school and Chris started his nursing career in Columbus. Saki is now a Lawyer living in '
-                    + 'Columbus Ohio with his long time girlfriend Marie Ragias. Chris and Saki make efforts to see one another whenever they are '
+                    + 'Columbus Ohio with his fiancé Marie Ragias. Chris and Saki make efforts to see one another whenever they are '
                     + 'both in Columbus and have plans to go to Memphis Tennessee and Austin Texas together soon to listen to live music.',
                 detailSize: '32%',
                 relation: '(Groomsman, Grade school friend of the Groom)'
@@ -1014,7 +1014,7 @@ var PartyViewerComponent = /** @class */ (function () {
                     + 'and hung out constantly with roommates Mike, Rob, Nate and Pete. The group devised a plan to sell their yard out as parking '
                     + 'spaces for the home football games which funded a few house parties every year. A few years after college Zach was visiting '
                     + 'Chris after he had bought his house in Columbus. Chris talked Zach into moving back to Columbus to be his roommate once again '
-                    + 'and they are both still living there today. Zach has also just started a great new career in Coding with Nationwide in Columbus.',
+                    + 'and they lived together for nearly another 5 years. Zach has also switched to a great new career in coding with Nationwide.',
                 detailSize: '35%',
                 relation: '(Bestman, Grade school friend of Groom, Long time roommate of Bride and Groom)'
             },
@@ -1039,8 +1039,8 @@ var PartyViewerComponent = /** @class */ (function () {
                     + 'Colorado. Cliff sat across from Chris and other future groomsmen Tyler Higgins and bonded over that long long fun ride. '
                     + 'Chris was soon at Cliffs house nearly every weekend and had became good friends with Cliff and all his roommates in his '
                     + 'college house "The Church". Cliff Still visits Columbus from time to time to watch Ohio State football and see Chris and '
-                    + 'Miranda. However, he now resides with his beautiful wife Erica in Portland, OR. Chris and Miranda hope to visit their new '
-                    + 'home soon!',
+                    + 'Miranda. However, he now resides with his beautiful wife Erica and their new baby, Avery, in Portland, OR. Chris and Miranda '
+                    + 'hope to visit their new home soon!',
                 detailSize: '29%',
                 relation: '(Groomsman, College friend of the Groom)'
             }
@@ -1173,7 +1173,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\walkez5\ngfun\chrismiranda\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\walkez5\wedding\wedding\src\main.ts */"./src/main.ts");
 
 
 /***/ })
