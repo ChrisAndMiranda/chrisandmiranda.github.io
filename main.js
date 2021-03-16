@@ -697,8 +697,8 @@ var FadingheaderComponent = /** @class */ (function () {
             template: __webpack_require__(/*! raw-loader!./fadingheader.component.html */ "./node_modules/raw-loader/index.js!./src/app/fadingheader/fadingheader.component.html"),
             animations: [
                 Object(_angular_animations__WEBPACK_IMPORTED_MODULE_4__["trigger"])('toggle', [
-                    Object(_angular_animations__WEBPACK_IMPORTED_MODULE_4__["state"])(VisibilityState.Hidden, Object(_angular_animations__WEBPACK_IMPORTED_MODULE_4__["style"])({ opacity: 0, transform: 'translateY(-100%)' })),
-                    Object(_angular_animations__WEBPACK_IMPORTED_MODULE_4__["state"])(VisibilityState.Visible, Object(_angular_animations__WEBPACK_IMPORTED_MODULE_4__["style"])({ opacity: 1, transform: 'translateY(0)' })),
+                    Object(_angular_animations__WEBPACK_IMPORTED_MODULE_4__["state"])(VisibilityState.Hidden, Object(_angular_animations__WEBPACK_IMPORTED_MODULE_4__["style"])({ opacity: 0, transform: 'translate3d(0, -100%, 1px)' })),
+                    Object(_angular_animations__WEBPACK_IMPORTED_MODULE_4__["state"])(VisibilityState.Visible, Object(_angular_animations__WEBPACK_IMPORTED_MODULE_4__["style"])({ opacity: 1, transform: 'translate3d(0, 0, 1px)' })),
                     Object(_angular_animations__WEBPACK_IMPORTED_MODULE_4__["transition"])('* => *', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_4__["animate"])('250ms ease-in'))
                 ])
             ],
