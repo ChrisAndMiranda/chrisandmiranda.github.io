@@ -747,9 +747,6 @@ var InstagramFeedComponent = /** @class */ (function () {
     };
     InstagramFeedComponent.prototype.ngAfterViewInit = function () {
     };
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])('instagramiframe', { static: false })
-    ], InstagramFeedComponent.prototype, "iframe", void 0);
     InstagramFeedComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-instagram-feed',
