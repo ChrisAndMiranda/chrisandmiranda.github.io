@@ -85,7 +85,18 @@ module.exports = "<div class=\"nav-container\" [@toggle]=\"getToggle()\">\r\n   
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<app-fadingheader></app-fadingheader>\r\n<div class=\"banner\" id=\"home\">\r\n    <img src=\"../../assets/img/chrisandmiranda.jpg\"/>\r\n    <div class=\"info-container\">\r\n        <h1 class=\"banner-headline\">Chris & Miranda</h1>\r\n        <h3>are getting married!</h3>\r\n        <h3>June 20, 2020</h3>\r\n        <h4>#DreamComeTornero</h4>\r\n    </div>\r\n</div>\r\n<app-about id=\"info\"></app-about>\r\n<app-party-viewer></app-party-viewer>\r\n<app-ringbearer id=\"ring bearers\"></app-ringbearer>\r\n<app-dogs id=\"dogs\"></app-dogs>\r\n"
+module.exports = "<app-fadingheader></app-fadingheader>\r\n<div class=\"banner\" id=\"home\">\r\n    <img src=\"../../assets/img/chrisandmiranda.jpg\"/>\r\n    <div class=\"info-container\">\r\n        <h1 class=\"banner-headline\">Chris & Miranda</h1>\r\n        <h3>are getting married!</h3>\r\n        <h3>June 12, 2021</h3>\r\n        <h4>#DreamComeTornero</h4>\r\n    </div>\r\n</div>\r\n<app-about id=\"info\"></app-about>\r\n<app-party-viewer></app-party-viewer>\r\n<app-ringbearer id=\"ring bearers\"></app-ringbearer>\r\n<app-dogs id=\"dogs\"></app-dogs>\r\n<app-instagram-feed></app-instagram-feed>\r\n"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/instagram-feed/instagram-feed.component.html":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/instagram-feed/instagram-feed.component.html ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<h1>Social Media</h1>\n\n<iframe src=\"https://embedsocial.com/facebook_album/pro_hashtag/c5afc9930f7e8ed48b48bacb9f9d163ace150bc8\" width=\"100%\" height=\"1200px\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\"></iframe>"
 
 /***/ }),
 
@@ -292,6 +303,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var ng2_animate_on_scroll__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ng2-animate-on-scroll */ "./node_modules/ng2-animate-on-scroll/dist/index.js");
 /* harmony import */ var ng2_animate_on_scroll__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(ng2_animate_on_scroll__WEBPACK_IMPORTED_MODULE_15__);
 /* harmony import */ var _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @fortawesome/angular-fontawesome */ "./node_modules/@fortawesome/angular-fontawesome/fesm5/angular-fontawesome.js");
+/* harmony import */ var _instagram_feed_instagram_feed_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./instagram-feed/instagram-feed.component */ "./src/app/instagram-feed/instagram-feed.component.ts");
+
 
 
 
@@ -324,7 +337,8 @@ var AppModule = /** @class */ (function () {
                 _fadingheader_fadingheader_component__WEBPACK_IMPORTED_MODULE_11__["FadingheaderComponent"],
                 _about_about_component__WEBPACK_IMPORTED_MODULE_12__["AboutComponent"],
                 _dogs_dogs_component__WEBPACK_IMPORTED_MODULE_13__["DogsComponent"],
-                _ringbearer_ringbearer_component__WEBPACK_IMPORTED_MODULE_14__["RingbearerComponent"]
+                _ringbearer_ringbearer_component__WEBPACK_IMPORTED_MODULE_14__["RingbearerComponent"],
+                _instagram_feed_instagram_feed_component__WEBPACK_IMPORTED_MODULE_17__["InstagramFeedComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -695,6 +709,55 @@ var HomeComponent = /** @class */ (function () {
         })
     ], HomeComponent);
     return HomeComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/instagram-feed/instagram-feed.component.css":
+/*!*************************************************************!*\
+  !*** ./src/app/instagram-feed/instagram-feed.component.css ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "h1 {\r\n    text-align: center;\r\n    font-family: 'Permanent Marker', cursive;\r\n    font-size: large;\r\n    -webkit-transform: rotate(-3deg);\r\n            transform: rotate(-3deg);\r\n    width: 32%;\r\n    margin-bottom: 5%;\r\n    margin-left: 5%;\r\n}\r\n\r\nh1:after {\r\n    content: \"\";\r\n    display: block;\r\n    border-left: 35vw solid transparent;\r\n    border-top: 10px solid #242424;\r\n    border-right: 1vw solid transparent;\r\n   }\r\n\r\n@media only screen and (min-width: 768px) {\r\n\r\n    h1 {\r\n        font-size: xx-large;\r\n    }\r\n\r\n    h1:after {\r\n        border-left: 35vw solid transparent;\r\n    }\r\n}\r\n\r\n@media only screen and (min-width: 1025px) {\r\n\r\n    h1 {\r\n        width: 17%;\r\n    }\r\n\r\n    h1:after {\r\n        border-left: 18vw solid transparent;\r\n    }\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaW5zdGFncmFtLWZlZWQvaW5zdGFncmFtLWZlZWQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGtCQUFrQjtJQUNsQix3Q0FBd0M7SUFDeEMsZ0JBQWdCO0lBQ2hCLGdDQUF3QjtZQUF4Qix3QkFBd0I7SUFDeEIsVUFBVTtJQUNWLGlCQUFpQjtJQUNqQixlQUFlO0FBQ25COztBQUVBO0lBQ0ksV0FBVztJQUNYLGNBQWM7SUFDZCxtQ0FBbUM7SUFDbkMsOEJBQThCO0lBQzlCLG1DQUFtQztHQUNwQzs7QUFFSDs7SUFFSTtRQUNJLG1CQUFtQjtJQUN2Qjs7SUFFQTtRQUNJLG1DQUFtQztJQUN2QztBQUNKOztBQUVBOztJQUVJO1FBQ0ksVUFBVTtJQUNkOztJQUVBO1FBQ0ksbUNBQW1DO0lBQ3ZDO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9pbnN0YWdyYW0tZmVlZC9pbnN0YWdyYW0tZmVlZC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaDEge1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgZm9udC1mYW1pbHk6ICdQZXJtYW5lbnQgTWFya2VyJywgY3Vyc2l2ZTtcclxuICAgIGZvbnQtc2l6ZTogbGFyZ2U7XHJcbiAgICB0cmFuc2Zvcm06IHJvdGF0ZSgtM2RlZyk7XHJcbiAgICB3aWR0aDogMzIlO1xyXG4gICAgbWFyZ2luLWJvdHRvbTogNSU7XHJcbiAgICBtYXJnaW4tbGVmdDogNSU7XHJcbn1cclxuXHJcbmgxOmFmdGVyIHtcclxuICAgIGNvbnRlbnQ6IFwiXCI7XHJcbiAgICBkaXNwbGF5OiBibG9jaztcclxuICAgIGJvcmRlci1sZWZ0OiAzNXZ3IHNvbGlkIHRyYW5zcGFyZW50O1xyXG4gICAgYm9yZGVyLXRvcDogMTBweCBzb2xpZCAjMjQyNDI0O1xyXG4gICAgYm9yZGVyLXJpZ2h0OiAxdncgc29saWQgdHJhbnNwYXJlbnQ7XHJcbiAgIH1cclxuXHJcbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNzY4cHgpIHtcclxuXHJcbiAgICBoMSB7XHJcbiAgICAgICAgZm9udC1zaXplOiB4eC1sYXJnZTtcclxuICAgIH1cclxuXHJcbiAgICBoMTphZnRlciB7XHJcbiAgICAgICAgYm9yZGVyLWxlZnQ6IDM1dncgc29saWQgdHJhbnNwYXJlbnQ7XHJcbiAgICB9XHJcbn1cclxuXHJcbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogMTAyNXB4KSB7XHJcblxyXG4gICAgaDEge1xyXG4gICAgICAgIHdpZHRoOiAxNyU7XHJcbiAgICB9XHJcblxyXG4gICAgaDE6YWZ0ZXIge1xyXG4gICAgICAgIGJvcmRlci1sZWZ0OiAxOHZ3IHNvbGlkIHRyYW5zcGFyZW50O1xyXG4gICAgfVxyXG59Il19 */"
+
+/***/ }),
+
+/***/ "./src/app/instagram-feed/instagram-feed.component.ts":
+/*!************************************************************!*\
+  !*** ./src/app/instagram-feed/instagram-feed.component.ts ***!
+  \************************************************************/
+/*! exports provided: InstagramFeedComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "InstagramFeedComponent", function() { return InstagramFeedComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var InstagramFeedComponent = /** @class */ (function () {
+    function InstagramFeedComponent() {
+    }
+    InstagramFeedComponent.prototype.ngOnInit = function () {
+    };
+    InstagramFeedComponent.prototype.ngAfterViewInit = function () {
+    };
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])('instagramiframe', { static: false })
+    ], InstagramFeedComponent.prototype, "iframe", void 0);
+    InstagramFeedComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-instagram-feed',
+            template: __webpack_require__(/*! raw-loader!./instagram-feed.component.html */ "./node_modules/raw-loader/index.js!./src/app/instagram-feed/instagram-feed.component.html"),
+            styles: [__webpack_require__(/*! ./instagram-feed.component.css */ "./src/app/instagram-feed/instagram-feed.component.css")]
+        })
+    ], InstagramFeedComponent);
+    return InstagramFeedComponent;
 }());
 
 
